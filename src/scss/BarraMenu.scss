@@ -10,13 +10,6 @@ h6 {
   font-family: "Amatic SC", sans-serif !important
 }
 
-/*inicio*/
-.imagenInicio {
-  height: 800px;
-  background-image: url('../image/274819503_5285176481519680_7804967844727730042_n.jpg');
-  background-size: cover;
-}
-
 
 html {
   font-family: Arial;
@@ -131,3 +124,15 @@ section {
     margin-top: 20px;
   }
 }
+
+
+
+/*inicio*/
+.imagenInicio {
+  height: 100%;
+  width: 100%;
+  background-image: url('../image/imagenInicio.jpg') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
