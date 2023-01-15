@@ -9,7 +9,6 @@ const Reservacion = () => {
   return (
 
   <div>
-  
 
       <img id="contact" src={require('../image/Como-organizar-las-reservas-en-un-restaurante.jpg')} className="w3-image w3-greyscale" alt="Map" style={{width:"100%"}}/>
 
