@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import BarraMenu from './components/BarraMenu';
 import './index.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 import {
     createBrowserRouter,
@@ -19,6 +14,7 @@ import Menu from './components/Menu';
 import Reservacion from './components/Reservacion';
 import Inicio from './components/Inicio';
 import Direccion from './components/Direccion';
+import { Helmet } from "react-helmet";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -37,7 +33,16 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 
+
     <main className="main">
+        <Helmet htmlAttributes>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC" />
+
+
+      </Helmet>
         <aside className="sidebar">
             <nav className="nav">
                 <ul>
@@ -56,5 +61,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </main>
 
 );
-
-
