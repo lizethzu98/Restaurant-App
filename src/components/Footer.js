@@ -37,7 +37,7 @@ const Footer = () => {
             </ul>
 
             <div className="legal">
-                <p>&copy; 2019 Something. All rights reserved.</p>
+             
 
                 <div className="legal__links">
                     <span>2023 React UCamp Todos los derechos reservados</span>

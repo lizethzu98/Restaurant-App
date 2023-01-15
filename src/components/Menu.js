@@ -11,7 +11,7 @@ const Menu = () => {
           <p className="w3-text-grey">Té con un dulce sabor</p>
           <hr />
 
-          <h1><b>Cappuccino</b> <span className="w3-right w3-tag w3-dark-grey w3-round">$100</span></h1>
+          <h1><b>Cappuccino</b> <span className="w3-right w3-tag w3-dark-grey w3-round">$100.00</span></h1>
           <p class="w3-text-grey">Espresso, leche al vapor, espuma</p>
           <hr />
 
