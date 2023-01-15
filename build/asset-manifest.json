@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e71297a.css",
+    "main.js": "/static/js/main.64865ecb.js",
+    "static/media/cafeteria.jpeg": "/static/media/cafeteria.b5223025f037e0b5c48c.jpeg",
+    "static/media/Como-organizar-las-reservas-en-un-restaurante.jpg": "/static/media/Como-organizar-las-reservas-en-un-restaurante.6e98d8952da315c564bb.jpg",
+    "static/media/imagenInicio.jpg": "/static/media/imagenInicio.ffa4a68dcd50eb524e62.jpg",
+    "index.html": "/index.html",
+    "main.2e71297a.css.map": "/static/css/main.2e71297a.css.map",
+    "main.64865ecb.js.map": "/static/js/main.64865ecb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e71297a.css",
+    "static/js/main.64865ecb.js"
+  ]
+}
