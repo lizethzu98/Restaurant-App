@@ -1,9 +1,7 @@
 import React from 'react'
 import '../w3.css';
 import '../font.css';
-
-
-
+import Footer from './Footer';
 
 const Reservacion = () => {
   return (
@@ -35,6 +33,8 @@ const Reservacion = () => {
 
           </form>
 
+
+          <Footer />
         </div>
 
   </div>

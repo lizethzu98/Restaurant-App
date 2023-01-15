@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 const Direccion = () => {
   return (
     <div>
@@ -22,6 +22,8 @@ const Direccion = () => {
           </div>
 
         </div >
+
+        <Footer />
       </div>
 
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../w3.css';
 import '../font.css';
-
+import Footer from './Footer';
 
 const Inicio = () => {
   return (
@@ -11,9 +11,11 @@ const Inicio = () => {
           <span className="w3-tag w3-xlarge">Abrimos de 10am a 12pm</span>
         </div>
         <div className="w3-display-middle w3-center">
-          <span className="w3-text-white">MI<br />CAFÉ</span>
-          <p><a href="/menu" className="w3-button w3-xxlarge w3-black">Ir al Menú</a></p>
+          <span className="w3-text-white" style={{fontSize:'100px'}}>MI<br />CAFÉ</span>
+          <p><a href="/menu" className="w3-button w3-xxlarge w3-black" style={{fontSize:'400px'}}>Ir al Menú</a></p>
         </div>
+
+        
       </div>
     
   )

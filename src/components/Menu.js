@@ -1,12 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Menu = () => {
   return (
     <div>
       <div id="menu" className="w3-container w3-black w3-xxlarge w3-padding-64">
         <h1 class="w3-center w3-jumbo w3-padding-32">MENÚ</h1>
-
-
         <div id="pizza" className="w3-container w3-white w3-padding-32">
           <h1><b>Té Café</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$80.00</span></h1>
           <p className="w3-text-grey">Té con un dulce sabor</p>
